@@ -1,0 +1,41 @@
+body {
+    background-color: #f5f7fa;
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.card-header {
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+}
+
+.table > :not(caption) > * > * {
+    padding: 0.75rem 1rem;
+}
+
+.table-danger {
+    --bs-table-bg: rgba(220, 53, 69, 0.08);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.btn-load-more {
+    min-width: 120px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+#historicalChart {
+    max-height: 400px;
+}
+
+select.form-select option {
+    padding: 0.5rem;
+}
